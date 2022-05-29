@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_start_image"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <TextView
+        android:id="@+id/lets_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lets_start"
+        style="@style/EntryTitleStyle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="433dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="515dp"
+        style="@style/inputstyle" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/inputstyle"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:drawableRight="@drawable/ic_show_icon"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="609dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:text="Sign in"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword4"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword4"
+        tools:layout_editor_absoluteY="701dp"
+        style="@style/style_button" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:fontFamily="@font/acme"
+        android:text="Don't have an account?"
+        android:textColor="#B9B8C6"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword4"
+        tools:layout_editor_absoluteY="770dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/acme"
+        android:text="Sign up"
+        android:textColor="#2C2B47"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        tools:layout_editor_absoluteY="770dp" />
+
+</android.support.constraint.ConstraintLayout>
