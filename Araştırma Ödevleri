@@ -1,4 +1,10 @@
 Araştırma Ödevleri:
+
+Araştırma Projesi 1 - Lateinit
+Araştırma Projesi 2 - Tools Namespace
+Araştırma Projesi 3 - Font family XML
+Araştırma Projesi 4 - Property Animation
+
 ARAŞTIRMA PROJESİ 1
 Sabit değer tanımlamak için kullanılır. Tanımlandıktan sonra tekrar değiştirilemez. Javadaki final’a denk gelir. var: Normal değişken tanımlamak için kullanılır. Tanımladıktan sonra dilediğinizde değerini değiştirebilirsiniz. Bazen bir değişken oluşturulurken değer atamak istemeyebiliriz. Bu durumda lateinit kullanılır. 
 class LoginFragment : Fragment() {
@@ -44,4 +50,6 @@ Kullanımı bu şekildedir:
 ARAŞTIRMA PROJESİ 4
 animator -> belirli bir süre boyunca bir animasyonu geçerli kılar.
 onjectAnimator -> belirli bir süre boyunca bir nesnenin belirli bir özelliğini canlandırmak için kullanılır.
+
+
 
